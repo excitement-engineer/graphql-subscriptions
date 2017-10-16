@@ -8,8 +8,6 @@
  *
  */
 
-import "babel-polyfill";
-
 import server from "./server";
 import { PORT } from "./config";
 import createSubscriptionServer from "./subscriptionServer";
