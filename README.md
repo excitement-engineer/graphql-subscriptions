@@ -4,11 +4,11 @@ This project contains a GraphQL API that allows a user to send posts out into th
 
 This project serves as an example for implementing subscriptions in Node.js.
 
-A deployed version of the server can be found [here](https://subscription-example-kkqnufkrhi.now.sh/graphiql).
+A deployed version of the server can be found [here](https://graphql-message.now.sh/graphiql).
 
 ## Getting started
 
-Go to [GraphiQL](https://subscription-example-kkqnufkrhi.now.sh/graphiql) and set up a subscription using the GraphQL query below. After executing the subscription, the client will get notified if any new posts are created and will show the resulting data to the user.
+Go to [GraphiQL](https://graphql-message.now.sh/graphiql) and set up a subscription using the GraphQL query below. After executing the subscription, the client will get notified if any new posts are created and will show the resulting data to the user.
 
 ```
 subscription {
