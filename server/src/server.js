@@ -13,11 +13,14 @@ import bodyParser from "body-parser";
 import url from "url";
 import { graphqlExpress, graphiqlExpress } from "graphql-server-express";
 import { createServer } from "http";
+import cors from "cors";
 
 import schema from "./graphql";
 import { SUBSCRIPTION_ENDPOINT, GRAPHQL_ENDPOINT } from "./config";
 
 const app = express();
+
+app.use(cors());
 
 app.use(
   GRAPHQL_ENDPOINT,
